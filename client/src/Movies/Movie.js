@@ -22,7 +22,7 @@ const Movie = (props) => {
         });
 
   },[]);
-  console.log('movie', movie)
+  // console.log('movie', movie)
   // Uncomment this only when you have moved on to the stretch goals
   const saveMovie = () => {
     const addToSavedList = props.addToSavedList;
